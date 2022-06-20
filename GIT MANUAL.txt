@@ -1,0 +1,26 @@
+TUTORIAL GIT
+ииииииииииии
+Desde la terminal del equipo donde esta el proyecto que queremos subir a github
+Nos vamos a la carpeta del proyecto y ejecutamos estos comandos.
+
+git init
+git add .
+git commit -m "first commit"
+
+crear el repositorio en github
+git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+git branch -M main //crea la rrama main
+git push -u origin master
+
+CLONAR REPOSITORIO GIT
+git clone https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+
+CREAR NUEVA RRAMA
+git checkout -b new-branch //crea la rrama new-branch y se cambia a ella
+
+CAMBIAR DE RRAMA
+git branch //muestra todas las rramas
+git checkout new-branch  //cambia a la rrama new-branch
+
+
+
